@@ -1,10 +1,11 @@
 sudo apt-get --assume-yes install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 sudo apt --assume-yes update
 sudo apt --assume-yes install ffmpeg
 sudo apt --assume-yes install python3-pip
 sudo pip install --upgrade dvr-scan[opencv]
 sudo apt-get --assume-yes install unzip
+sudo apt-get --assume-yes install awscli
 
 # sudo apt --assume-yes  upgrade
 
