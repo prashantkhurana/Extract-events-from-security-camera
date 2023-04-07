@@ -30,3 +30,4 @@ Extract movement events from security camera footage and merges them for each da
 
 Run 
 1. python3 get_files.py
+2. du -sh -- * to see directory sizes. 
