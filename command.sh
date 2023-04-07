@@ -6,6 +6,9 @@ sudo apt --assume-yes install python3-pip
 sudo pip install --upgrade dvr-scan[opencv]
 sudo apt-get --assume-yes install unzip
 sudo apt-get --assume-yes install awscli
+mkdir raw_files
+aws s3 cp --recursive s3://test-s3-33434/ ~/raw_files/
+
 
 # sudo apt --assume-yes  upgrade
 
