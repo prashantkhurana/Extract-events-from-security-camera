@@ -148,7 +148,7 @@ for (root, dirs, files) in os.walk(root_dir, topdown=True):
             # out, err = p.communicate();
             # print("dddddd" + str(out))
             p = subprocess.Popen(
-            ["dvr-scan -i output.mkv -m ffmpeg -c /home/ubuntu/extract-events/dvr-scan.cfg"], shell=True, cwd=dir_path)
+            ["dvr-scan -i output.mkv -m ffmpeg -c /home/ubuntu/Extract-events-from-security-camera/dvr-scan.cfg"], shell=True, cwd=dir_path)
             p.wait()
             old_files = [f for f in os.listdir(dir_path)]
             print("prashant merging events files")
